@@ -4,5 +4,5 @@ export  function demoA(params:String):void {
 };
 
 export  function demob() {
-  
+  console.log(3232)
 };
