@@ -1,0 +1,19 @@
+{
+  "recommendations": [
+    "Vue.volar", // Vue 3 的官方插件
+    "Vue.vscode-typescript-vue-plugin", // Volar 的 TypeScript 支持插件
+    "dbaeumer.vscode-eslint", // ESLint 插件
+    "esbenp.prettier-vscode", // Prettier 插件
+    "stylelint.vscode-stylelint", // Stylelint 插件（CSS/SCSS/LESS 代码规范检查）
+    "mrmlnc.vscode-scss", // SCSS IntelliSense 插件
+    "hex-ci.stylelint-plus", // Stylelint Plus 插件，支持 SCSS 和 LESS
+    "eamodio.gitlens", // GitLens 插件，增强 Git 使用体验
+    "donjayamanne.githistory", // Git History 插件，查看提交历史
+    "mhutchie.git-graph", // Git Graph 插件，直观展示 Git 分支和提交历史
+    "codezombiech.gitignore", // Gitignore 插件，支持 .gitignore 文件的语法高亮和生成
+    "streetsidesoftware.code-spell-checker" // 拼写检查插件（可选）
+  ],
+  "unwantedRecommendations": [
+    "octref.vetur" // 明确不推荐使用 Vetur 插件
+  ]
+}

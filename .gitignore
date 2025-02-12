@@ -1,0 +1,4 @@
+#禁止上传目录
+node_modules
+.DS_Store
+pnpm-lock.yaml

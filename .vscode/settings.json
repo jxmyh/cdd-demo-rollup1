@@ -1,0 +1,18 @@
+{
+  "npm.packageManager": "pnpm",
+  "editor.formatOnSave": true, // 保存时格式化
+  "editor.defaultFormatter": "esbenp.prettier-vscode", // 默认格式化工具为 Prettier
+  "eslint.format.enable": true, // 启用 ESLint 格式化
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": "always" // 保存时自动修复 ESLint 规则
+  },
+  "[javascript]": {
+    "editor.defaultFormatter": "dbaeumer.vscode-eslint"
+  },
+  "[typescript]": {
+    "editor.defaultFormatter": "dbaeumer.vscode-eslint"
+  },
+  "[vue]": {
+    "editor.defaultFormatter": "dbaeumer.vscode-eslint"
+  }
+}
