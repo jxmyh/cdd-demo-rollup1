@@ -21,7 +21,6 @@
   },
   "homepage": "https://github.com/jxmyh/sdk-demo-rollup#readme",
   "engines": {
-    "node": ">=16",
     "pnpm": ">=8"
   },
   "devDependencies": {
@@ -40,7 +39,7 @@
   ],
   "simple-git-hooks": {
     "pre-commit": "pnpm lint-staged",
-    "commit-msg": "npx scripts/verifyCommit.mjs"
+    "commit-msg": "node scripts/verifyCommit.mjs"
   },
   "lint-staged": {
     "**/*.{js,ts,vue}": [
