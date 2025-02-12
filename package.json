@@ -41,7 +41,7 @@
   ],
   "simple-git-hooks": {
     "pre-commit": "pnpm lint-staged",
-    "commit-msg": "node scripts/verifyCommit.mjs"
+    "commit-msg": "npx scripts/verifyCommit.mjs"
   },
   "lint-staged": {
     "**/*.{js,ts,vue}": [
