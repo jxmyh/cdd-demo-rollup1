@@ -15,7 +15,6 @@ module.exports = {
         'chore', // 构建过程或辅助工具的变动
         'perf' // 性能优化
       ]
-    ],
-    'subject-case': [2, 'always', 'sentence-case']
+    ]
   }
 };
